@@ -6,5 +6,18 @@
         <li><a href="/trilaterating-signals">Trilaterating Signals</a></li>
         <li><a href="/image-recognition">Image Recognition</a></li>
         <li><a href="/machine-genetic-learning">Machine Learning</a></li>
+        {{^is "home"}}
+            <li><a href="/work-with-me">Work With Me</a></li>
+            <li><a href="/investors">Investors</a></li>
+        {{/is}}
     </ul>
 </nav>
+{{#is "home"}}
+    <nav id="nav" role="nav">
+        <ul id="home-menu" class="list-unstyled">
+
+            <li><a href="/work-with-me">Work With Me</a></li>
+
+        </ul>
+    </nav>
+{{/is}}
