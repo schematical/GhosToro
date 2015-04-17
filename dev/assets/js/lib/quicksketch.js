@@ -225,7 +225,7 @@ Dot.prototype = {
 			shape = "circle";			
 		} 
 
-		color = this.trail === "trail" ? "red" : "grey";
+		color = this.trail === "trail" ? "green" : "grey";
 		this.g = PIXI.Sprite.fromImage("/assets/images/" + shape + "-" + color + ".png");
 		this._parent.stage.addChild(this.g);
 	},
